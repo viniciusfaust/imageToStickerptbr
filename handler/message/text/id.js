@@ -1,118 +1,118 @@
-exports.textTnC = () => {
-    return `
-Source code / bot ini merupakan program open-source (gratis) yang ditulis menggunakan Javascript, kamu dapat menggunakan, menyalin, memodifikasi, menggabungkan, menerbitkan, mendistribusikan, mensublisensikan, dan atau menjual salinan dengan tanpa menghapus author utama dari source code / bot ini.
+exportações.textTnC = () => {
+    return`
+Código-fonte / bot é um programa de código aberto (gratuito) escrito em Javascript, você pode usar, copiar, modificar, combinar, publicar, distribuir, sublicenciar e / ou vender cópias sem remover o autor principal do código-fonte / bot.
 
-Dengan menggunakan source code / bot ini maka anda setuju dengan Syarat dan Kondisi sebagai berikut:
-- Source code / bot tidak menyimpan data anda di server kami.
-- Source code / bot tidak bertanggung jawab atas sticker yang anda buat dari bot ini serta video, gambar maupun data lainnya yang anda dapatkan dari Source code / bot ini.
-- Source code / bot tidak boleh digunakan untuk layanan yang bertujuan/berkontribusi dalam: 
-    • seks / perdagangan manusia
-    • perjudian
-    • perilaku adiktif yang merugikan 
-    • kejahatan
-    • kekerasan (kecuali jika diperlukan untuk melindungi keselamatan publik)
-    • pembakaran hutan / penggundulan hutan
-    • ujaran kebencian atau diskriminasi berdasarkan usia, jenis kelamin, identitas gender, ras, seksualitas, agama, kebangsaan
+Ao usar este código-fonte / bot, você concorda com os seguintes Termos e Condições:
+- O código-fonte / bot não armazena seus dados em nossos servidores.
+- O código-fonte / bot não é responsável pelos stickers que você faz desse bot e pelos vídeos, imagens e outros dados que você obtém do código-fonte / bot.
+- O código-fonte / bot não pode ser usado para serviços que visam / contribuem para:
+    • sexo / tráfico humano
+    • jogos de azar
+    • comportamento viciante prejudicial
+    • crime
+    • violência (a menos que necessário para proteger a segurança pública)
+    • queima / desmatamento florestal
+    • discurso de ódio ou discriminação com base na idade, sexo, identidade de gênero, raça, sexualidade, religião, nacionalidade
 
-Source Code BOT : https://github.com/YogaSakti/imageToSticker
-NodeJS WhatsApp library: https://github.com/open-wa/wa-automate-nodejs
+Código-fonte BOT: https://github.com/YogaSakti/imageToSticker
+Biblioteca NodeJS WhatsApp: https://github.com/open-wa/wa-automate-nodejs
 
-Best regards, Yoga Sakti.`
+Atenciosamente, Sakti Yoga. »
 }
 
-exports.textMenu = (pushname) => {
-    return `
-Hi, ${pushname}! 👋️
-Berikut adalah beberapa fitur yang ada pada bot ini!✨
+ports.textMenu = (pushname) => (
+    return`
+Olá, $ {pushname}! 👋
+Aqui estão alguns dos recursos deste bot! ✨
 
-Sticker Creator:
-1. *#sticker*
-Untuk merubah gambar menjadi sticker. 
-Penggunaan: kirim gambar dengan caption #sticker atau balas gambar yang sudah dikirim dengan #sticker
+Criador de adesivos:
+1. * # adesivo *
+Para transformar a imagem em um adesivo.
+Uso: enviar imagens com a legenda #sticker ou responder a imagens que foram enviadas com #sticker
 
-2. *#sticker* _<Url Gambar>_
-Untuk merubah gambar dari url menjadi sticker. 
-Penggunaan: 
+2. * # adesivo * _ <URL da imagem> _
+Para mudar a imagem do url para um adesivo.
+Usar:
 
-3. *#gifsticker* _<Giphy URL>_ / *#stickergif* _<Giphy URL>_
-Untuk merubah gif menjadi sticker (Giphy Only)
-Penggunaan: Kirim pesan dengan format *gifsticker https://media.giphy.com/media/JUvI2c1ddyzkwK4RlV/giphy.gif*
+3. * # gifsticker * _ <Giphy URL> _ / * # stickergif * _ <Giphy URL> _
+Para transformar um GIF em um adesivo (somente Giphy)
+Uso: enviar mensagens com o formato * gifsticker https://media.giphy.com/media/JUvI2c1ddyzkwK4RlV/giphy.gif*
 
-4. *#memesticker* _<teks atas>_ | _<teks bawah>_
-Untuk membuat sticker meme dengan teks atas dan bawah
-Penggunaan: kirim gambar dengan caption _*#meme aku atas | kamu bawah*_, atau juga bisa dengan membalas gambar yang sudah ada.
+4. * # memesticker * _ <texto superior> _ | _ <texto inferior> _
+Para fazer um meme de adesivo com texto superior e inferior
+Uso: enviar imagem com legenda _ * # meme top me | você sob * _, ou você também pode responder a uma imagem existente.
 
 Downloader:
-1. *#tiktok* _<tiktok url>_
-Untuk mengunduh video dari video tiktok.
-Penggunaan: kirim pesan dengan format *#tiktok https://www.tiktok.com/@itsandani/video/6869248690381425922* 
+1. * # tiktok * _ <url do tiktok> _
+Para baixar vídeos do vídeo tiktok.
+Uso: enviar mensagens com o formato * # tiktok https://www.tiktok.com/@itsandani/video/6869248690381425922*
 
-2. *#fb* _<post/video url>_
-Untuk mengunduh video dari Facebook.
-Penggunaan: kirim pesan dengan format *#fb https://www.facebook.com/.....*
+2. * # fb * _ <url de postagem / vídeo> _
+Para baixar vídeos do Facebook.
+Uso: enviar mensagem com o formato * # fb https://www.facebook.com/.....*
 
-3. *#ig* _<instagram post url>_
-Untuk mengunduh photo dan video dari instagram.
-Penggunaan: kirim pesan dengan format *#ig https://www.instagram.com/p/BPOd1vhDMIp/*
+3. * # ig * _ <url do post do instagram> _
+Para baixar fotos e vídeos do Instagram.
+Uso: enviar mensagens com o formato * # ig https://www.instagram.com/p/BPOd1vhDMIp/*
 
-4. *#twt* _<twitter post url>_
-Untuk mengunduh photo dan video dari Twitter.
-Penggunaan: kirim pesan dengan format *#twt https://twitter.com/ntsana_/status/1306108656887324672*
+4. * # twt * _ <url da postagem no Twitter> _
+Para baixar fotos e vídeos do Twitter.
+Uso: enviar mensagem com o formato * # twt https://twitter.com/ntsana_/status/1306108656887324672*
 
-Lain-lain:
-1. *#translate* _<kode bahasa>_
-Untuk mengartikan pesan menjadi bahasa yang ditentukan.
-Penggunaan: Balas/quote/reply pesan yang ingin kamu translate dengan _*#translate id*_ <- id adalah kode bahasa. kode bahasa dapat dilihat di *https://bit.ly/33FVldE*
+Etc:
+1. * # traduzir * _ <código do idioma> _
+Para interpretar mensagens no idioma especificado.
+Uso: Responder / citar / responder a mensagem que você deseja traduzir com _ * # translate id * _ <- id é o código do idioma. o código do idioma pode ser visto em * https: //bit.ly/33FVldE*
 
-2. *#resi* _<kurir>_ _<nomer resi>_
-Untuk memeriksa status pengiriman barang, daftar kurir: jne, pos, tiki, wahana, jnt, rpx, sap, sicepat, pcp, jet, dse, first, ninja, lion, idl, rex.
-Penggunaan: kirim pesan dengan format _*#resi jne 1238757632*_
+2. * # recibo * _ <kurir> _ _ <número do recibo> _
+Para verificar o status de entrega de mercadorias, lista de mensageiros: jne, pos, tiki, passeios, jnt, rpx, sap, sicepat, pcp, jet, dse, first, ninja, lion, idl, rex.
+Uso: enviar mensagem com o formato _ * # resi jne 1238757632 * _
 
-3. *#meme* _<teks atas>_ | _<teks bawah>_
-Untuk membuat meme dengan teks atas dan bawah
-Penggunaan: kirim gambar dengan caption _*#meme aku atas | kamu bawah*_, atau juga bisa dengan membalas gambar yang sudah ada.
+3. * # meme * _ <texto superior> _ | _ <texto inferior> _
+Para criar um meme com texto superior e inferior
+Uso: enviar imagem com legenda _ * # meme top me | você sob * _, ou você também pode responder a uma imagem existente.
 
-4. *#ceklokasi*
-Cek lokasi penyebaran covid-19 di daerah sekitarmu (kelurahan).
-Penggunaan: kirimkan lokasimu lalu balas/quote/reply lokasi yang kamu kirim dengan _*#ceklokasi*_
+4. * # verificar localização *
+Verifique a localização da propagação de covid-19 na área ao seu redor (kelurahan).
+Uso: enviar sua localização e responder / citar / responder a localização enviada com _ * # verificar localização * _
 
-5. *#tnc*
-Menampilkan Syarat dan Kondisi Bot.
+5. * # tnc *
+Exibe os termos e condições do bot.
 
-6. *#donasi*
-menampilkan informasi donasi.
+6. * # doação *
+exibir informações de doação.
 
-Hope you have a great day!✨`
+Espero que você tenha um ótimo dia! ✨`
 }
 
-exports.textAdmin = () => {
-    return `
-⚠ [ *Admin Group Only* ] ⚠ 
-Berikut adalah beberapa fitur admin grup yang ada pada bot ini!
+exportações.textAdmin = () => {
+    return`
+⚠ [* Administrador de grupo apenas *] ⚠
+Aqui estão alguns dos recursos de administração de grupo incluídos neste bot!
 
-1. *#kick* @user
-Untuk mengeluarkan member dari grup (bisa lebih dari 1).
+1. * # kick * @user
+Para remover membros do grupo (pode ser mais de 1).
 
-2. *#promote* @user
-Untuk mempromosikan member menjadi Admin grup.
+2. * # promova * @user
+Para promover membros a administradores do grupo.
 
-3. *#demote* @user
-Untuk demosikan Admin grup.
+3. * # rebaixar * @user
+Para rebaixar os administradores do Grupo.
 
-4. *#tagall*
-Untuk mention semua member grup. (Premium Only)
+4. * # tagall *
+Para mencionar todos os membros do grupo. (Apenas Premium)
 
-5. *#del*
-Untuk menghapus pesan bot (balas pesan bot dengan #del)`
+5. * # del *
+Para deletar uma mensagem do bot (responda a mensagem do bot com #del) `
 }
 
-exports.textDonasi = () => {
-    return `
-Hai, terimakasih telah menggunakan bot ini, untuk mendukung bot ini kamu dapat membantu dengan berdonasi melalui link berikut:
+exportações.textDonation = () => {
+    return`
+Olá, obrigado por usar este bot, para apoiar este bot você pode ajudar doando através do seguinte link:
 1. Saweria: https://saweria.co/yogasakti
-2. Trakteer: https://trakteer.id/red-emperor 
+2. Trakteer: https://trakteer.id/red-emperor
 
-Donasi akan digunakan untuk pengembangan dan pengoperasian bot ini.
+A doação será usada para o desenvolvimento e operação deste bot.
 
-Terimakasih.`
+Obrigado
 }
